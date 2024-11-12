@@ -1,3 +1,4 @@
+'use client'
 // app/checkout/page.tsx
 import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 import { useCart } from "@/context/CartContext";

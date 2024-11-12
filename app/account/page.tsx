@@ -5,7 +5,7 @@ import { useState, useRef, useEffect } from "react";
 import DialogModal from "@/components/Modal";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
-import { Metadata } from "next";
+// import { Metadata } from "next";
 
 interface Address {
   address_name: string;
@@ -57,9 +57,9 @@ interface OrderMap {
 //   onSubmit: (address: any) => void;
 // }
 
-export const metadata: Metadata = {
-  title: "Account | Modern Furniture Pacific",
-};
+// export const metadata: Metadata = {
+//   title: "Account | Modern Furniture Pacific",
+// };
 
 export default function Account() {
   const supabaseClient = useSupabaseClient();
