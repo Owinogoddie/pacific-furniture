@@ -200,6 +200,9 @@ export default function Header() {
         <h2>
           <Link href="/products/category/seating">Seatings</Link>
         </h2>
+        <h2>
+          <Link href="/products/category/beds">Beds</Link>
+        </h2>
       </nav>
     </>
   );
