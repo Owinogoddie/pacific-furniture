@@ -8,9 +8,7 @@ import Image from "next/image";
 import { toast } from "sonner";
 // import { useRouter } from "next/navigation";
 
-export const metadata = {
-  title: "Checkout | Modern Furniture Pacific",
-};
+
 
 const Checkout: FC = () => {
   const { cart, calculateSubtotal, resetCart } = useCart();
