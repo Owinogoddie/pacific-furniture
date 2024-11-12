@@ -1,0 +1,11 @@
+:root {
+  --nav-color: #698b69;     /* Muted sage green */
+  --nav-name: #1e291e;      /* Dark forest green */
+  --nav-bottom: #f9f9f6;    /* Off-white with slight green tint */
+  --foot-back: #4a724a;     /* Medium forest green */
+  --butt: #2c4c2c;          /* Deep green */
+  --paragraph: #4b5a4b;     /* Grayish green */
+  
+  --accent-red: #a67d7d;    /* Muted reddish brown */
+  --accent-rose: #bc8f8f;   /* Rosy accent */
+}
