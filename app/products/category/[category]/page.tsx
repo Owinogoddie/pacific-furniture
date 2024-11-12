@@ -1,12 +1,24 @@
-// app/products/[category]/page.tsx
+// app/products/category/[category]/page.tsx
 
 import Products from '@/components/Products'
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 
 // Define valid categories to type check and validate
-const validCategories = ['ceramics', 'chairs','tables','pots','lamps','crockery'] as const
-type Category = typeof validCategories[number]
+const validCategories = [
+  'ceramics',
+  'chairs',
+  'tables',
+  'pots',
+  'lamps',
+  'crockery',
+  'sofas',
+  'beds',
+  'storage',
+  'seating',
+  'plant pots',
+] as const;
+type Category = typeof validCategories[number];
 
 // Generate metadata
 export async function generateMetadata({
@@ -15,7 +27,7 @@ export async function generateMetadata({
   params: { category: string }
 }): Promise<Metadata> {
   // Capitalize first letter for title
-  const title = params.category.charAt(0).toUpperCase() + params.category.slice(1)
+  const title = params.category.charAt(0).toLowerCase() + params.category.slice(1)
   
   return {
     title: `${title} | Modern Furniture Pacific`,

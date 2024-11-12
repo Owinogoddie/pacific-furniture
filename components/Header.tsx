@@ -192,7 +192,13 @@ export default function Header() {
           <Link href="/products/category/ceramics">Ceramics</Link>
         </h2>
         <h2>
-          <Link href="/products/category/pots">Plant pots</Link>
+          <Link href="/products/category/plant-pots">Plant pots</Link>
+        </h2>
+        <h2>
+          <Link href="/products/category/storage">Storage</Link>
+        </h2>
+        <h2>
+          <Link href="/products/category/seating">Seatings</Link>
         </h2>
       </nav>
     </>
